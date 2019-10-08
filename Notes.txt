@@ -1,1 +1,15 @@
-# init Project
+# Create Project / Init Project
+    -- laravel new LaravelAjaxInsert
+
+# Assisgn DB to .env file
+    -- DB_CONNECTION=mysql
+       DB_HOST=127.0.0.1
+       DB_PORT=3306
+       DB_DATABASE=laraveldemo
+       DB_USERNAME=root
+       DB_PASSWORD=
+
+# Assign DB info to Config -> Database.php
+    -- 'database' => env('DB_DATABASE', 'laraveldemo'),
+       'username' => env('DB_USERNAME', 'root'),
+       'password' => env('DB_PASSWORD', ''),
